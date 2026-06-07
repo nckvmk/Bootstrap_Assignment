@@ -5,24 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>My Web Page!</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles.css" type="text/css" href="styles.css">
     </head>
 
     <body>
-    <nav class="navbar navbar-expand-xl bg-secondary navbar-dark">
-        <div class="container">
-            <a href="#" class="navbar-brand">ITC 4214</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-item nav-link active" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-item nav-link" href="forms.html">Forms</a>
+        <nav class="navbar navbar-light bg-white shadow-sm">
+            <div class="container-fluid">
+            <!-- COURSE ID (left side) -->
+                <a class="navbar-brand fw-semibold" href="#">
+                <span class="text-primary"></span>ITC 4214</a>
+
+            <!--TOGGLE ICON - TOP RIGHT CORNER-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation bar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <!--COLLAPSIBLE NAVIGATION BAR CONTENT-->
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav mt-3 mt-lg-0 pt-2 pt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="forms.html">Forms</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
         <div class="h1">
             <h1>Welcome to ITC4214!</h1>
         </div>
@@ -30,7 +43,7 @@
             <p>The course exposes students to today’s web development methodologies and
                 programming principles. It provides students with the opportunity to develop
                 complex, data driven web applications, enhancing their understanding of web
-                development and their judgement of the effectiveness of different
+                development and their judgment of the effectiveness of different
                 development techniques. Web application security concepts are also
                 implemented. The course instructor is Dr. Leonardos Mageiros, and his office hours are after class or after booking an appointment on Teams.</p>
         </div>

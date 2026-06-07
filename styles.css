@@ -2,10 +2,14 @@ h1 {
     text-align: center;
     color: blue;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
-    margin: 10px;
+    padding: 50px;
 }
 
-.navbar{
-    visibility: hidden;
+.nav-link {
+    font-weight: 600;
+    color: black;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
